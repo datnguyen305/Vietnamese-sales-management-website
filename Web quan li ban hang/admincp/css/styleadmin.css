@@ -1,0 +1,100 @@
+
+/* Header */
+.header {
+    background-color: #20975c; /* Màu xanh đậm */
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.header h1 {
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: bold;
+}
+
+/* Menu */
+.navbar {
+    background-color: #1F2937; /* bg-gray-800 */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navbar a {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+
+/* Nội dung chính */
+.main-content {
+    padding: 2rem;
+    background-color: #F3F4F6; /* bg-gray-100 */
+    color: #4B5563; /* text-gray-700 */
+}
+
+.main-content h2 {
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: 600;
+}
+
+/* Bảng sản phẩm */
+.product-table {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+p.text-2xl.font-bold.text-gray-800.mb-4.b {
+    margin-top: 1rem;
+}
+.product-table th {
+    background-color: #E5E7EB; /* bg-gray-200 */
+    padding: 1rem;
+}
+
+.product-table td {
+    padding: 1rem;
+    border: 1px solid #D1D5DB; /* border-gray-300 */
+}
+
+.product-table tr:hover {
+    background-color: #F9FAFB; /* hover:bg-gray-100 */
+}
+
+/* Nút thêm khách hàng */
+.btn-add {
+    background-color: #ff0000;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.btn-add:hover {
+    background-color: #176b44;
+}
+
+/* Footer */
+.footer {
+    background-color: #1F2937; /* bg-gray-800 */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
